@@ -1,0 +1,15 @@
+name: test basic
+description: 'somente o basico'
+
+inputs:
+  basic:
+    description: faz algo
+    required: true
+  inter:
+    description: faz algo melhor
+    required: false
+
+runs:
+  using: 'composite'
+  steps:
+   -run: basic.sh
