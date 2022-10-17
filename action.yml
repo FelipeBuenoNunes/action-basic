@@ -4,7 +4,7 @@ description: 'somente o basico'
 inputs:
   basic:
     description: faz algo
-    required: true
+    required: false
   inter:
     description: faz algo melhor
     required: false
