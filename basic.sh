@@ -7,4 +7,4 @@ ls
 echo ".........................."
 echo $basic
 echo ".........................."
-echo $inter
+echo $GITHUB_ACTOR
