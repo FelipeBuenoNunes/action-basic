@@ -12,5 +12,5 @@ inputs:
 runs:
   using: 'composite'
   steps:
-   - run: basic.sh
+   - run: bash basic.sh
      shell: bash
