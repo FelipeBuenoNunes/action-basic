@@ -12,5 +12,5 @@ inputs:
 runs:
   using: 'composite'
   steps:
-   - run: bash basic.sh
+   - run: ${{ github.action_path }}/basic.sh
      shell: bash
